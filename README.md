@@ -13,7 +13,7 @@ $ go install github.com/siketyan/fq
 
 ## ✨ Usage
 ```
-$ fq ./**/*.go '.[] | map(.name)' # 
+$ fq ./**/*.go '.[] | map(.name)'
 ```
 
 The query at 2nd argument are passed to jq.
